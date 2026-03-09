@@ -7,12 +7,12 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: 'ColdClips | Turn Your Content Into Millions Of Views',
-  description: 'ColdClips runs viral clipping campaigns that distribute your content across TikTok, Instagram Reels, and YouTube Shorts using a network of clipping accounts.',
-  generator: 'v0.app',
- icons: {
-  icon: '/ColdClips.png',
-  apple: '/ColdClips.png',
-},
+  description:
+    'ColdClips runs viral clipping campaigns that distribute your content across TikTok, Instagram Reels, and YouTube Shorts.',
+  icons: {
+    icon: '/ColdClips.png',
+  },
+}
 
 export const viewport: Viewport = {
   themeColor: '#0a0a0a',
