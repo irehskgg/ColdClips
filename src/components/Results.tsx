@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { BarChart3, TrendingUp } from "lucide-react";
 import logo from "@/assets/logo.png";
 import jackAndrews from "@/assets/jack-andrews.jpg";
+import Aiden Yoo from "@/assets/aiden-yoo.jpg";
 
 const caseStudies = [
   {
