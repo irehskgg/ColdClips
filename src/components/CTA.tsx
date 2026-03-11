@@ -15,11 +15,13 @@ const CTA = () => {
           Launch Your Clipping Campaign Today
         </h2>
         <p className="text-muted-foreground mb-8 max-w-md mx-auto">
-          Ready to get your content in front of millions? Apply now and let's
+          Ready to get your content in front of millions? Click below and let's
           get started.
         </p>
-        <Button size="lg" className="rounded-full px-10 text-base font-semibold gap-2">
-          Apply Now <ArrowUpRight size={18} />
+        <Button size="lg" className="rounded-full px-10 text-base font-semibold gap-2" asChild>
+          <a href="https://whop.com/clipify-50d5/coldclips-client-onboarding/" target="_blank" rel="noopener noreferrer">
+            Start Your Campaign <ArrowUpRight size={18} />
+          </a>
         </Button>
       </motion.div>
     </section>
