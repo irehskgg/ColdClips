@@ -49,8 +49,10 @@ const Navbar = () => {
 
         {/* CTA button */}
         <div className="hidden md:block">
-          <Button size="sm" className="rounded-full px-6 h-10 gap-1.5 text-sm font-semibold">
-            Start Your Campaign <ArrowUpRight size={15} />
+          <Button size="sm" className="rounded-full px-6 h-10 gap-1.5 text-sm font-semibold" asChild>
+            <a href="https://whop.com/clipify-50d5/coldclips-client-onboarding/" target="_blank" rel="noopener noreferrer">
+              Start Your Campaign <ArrowUpRight size={15} />
+            </a>
           </Button>
         </div>
 
@@ -76,8 +78,10 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <Button size="sm" className="rounded-full w-full mt-1 gap-1.5">
-            Start Your Campaign <ArrowUpRight size={15} />
+          <Button size="sm" className="rounded-full w-full mt-1 gap-1.5" asChild>
+            <a href="https://whop.com/clipify-50d5/coldclips-client-onboarding/" target="_blank" rel="noopener noreferrer">
+              Start Your Campaign <ArrowUpRight size={15} />
+            </a>
           </Button>
         </div>
       )}
