@@ -28,12 +28,14 @@ export function ApplySection() {
         
         {/* CTA Button */}
         <div className="mb-8">
-          <Button 
-            asChild
-            size="lg" 
-          className="bg-[#2300ff] hover:bg-[#1b00cc] text-white font-bold px-12 py-6 text-lg rounded-lg transition-all duration-300 hover:scale-105 shadow-lg"
-            <a href="https://whop.com/clipify-50d5/coldclips-client-onboarding/" target="_blank" rel="noopener noreferrer">
-              APPLY NOW
+        <Button 
+<Button 
+  asChild 
+  size="lg"
+  className="bg-[#2300ff] hover:bg-[#1b00cc] text-white font-bold px-12 py-6 text-lg rounded-lg transition-all duration-300 hover:scale-105 shadow-lg"
+>  
+    <a href="https://whop.com/clipify-50d5/coldclips-client-onboarding/" target="_blank" rel="noopener noreferrer">
+         APPLY NOW
             </a>
           </Button>
         </div>
