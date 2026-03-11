@@ -16,12 +16,12 @@ const caseStudies = [
   {
     icon: TrendingUp,
     client: "Aiden Yoo",
+    clientImage: aidenYoo,
     stat: "500,000 views",
     description:
       "Online influencer who generated over 500,000 views across TikTok and Instagram Reels within the first month. Our coordinated network of clipping pages drove significant organic traffic to his content.",
   },
 ];
-
 const Results = () => {
   return (
     <section id="results" className="py-24 px-4 bg-accent/40">
