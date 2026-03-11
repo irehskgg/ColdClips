@@ -68,8 +68,10 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <Button size="lg" className="rounded-full px-8 text-base h-12 gap-2">
-            Start Your Campaign <ArrowUpRight size={18} />
+          <Button size="lg" className="rounded-full px-8 text-base h-12 gap-2" asChild>
+            <a href="https://whop.com/clipify-50d5/coldclips-client-onboarding/" target="_blank" rel="noopener noreferrer">
+              Start Your Campaign <ArrowUpRight size={18} />
+            </a>
           </Button>
           <Button
             size="lg"
