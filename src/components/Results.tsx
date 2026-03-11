@@ -1,14 +1,16 @@
 import { motion } from "framer-motion";
 import { BarChart3, TrendingUp } from "lucide-react";
 import logo from "@/assets/logo.png";
+import jackAndrews from "@/assets/jack-andrews.jpg";
 
 const caseStudies = [
   {
     icon: BarChart3,
-    client: "Client 1",
-    stat: "1M+ views",
+    client: "Jack Andrews",
+    clientImage: jackAndrews,
+    stat: "500,000 views",
     description:
-      "Generated over one million views across TikTok and Instagram Reels within the first month of launching the clipping campaign. Content was distributed through a coordinated network of clipping pages, each contributing thousands of views organically.",
+      "High ticket seller who generated over 500,000 views across TikTok and Instagram Reels within the first month. Our coordinated network of clipping pages drove significant organic traffic to his offers.",
   },
   {
     icon: TrendingUp,
@@ -50,9 +52,17 @@ const Results = () => {
               className="bg-card rounded-2xl p-8 shadow-card border border-border"
             >
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
-                  <cs.icon size={20} className="text-primary-foreground" />
-                </div>
+                {cs.clientImage ? (
+                  <img
+                    src={cs.clientImage}
+                    alt={cs.client}
+                    className="w-10 h-10 rounded-lg object-cover"
+                  />
+                ) : (
+                  <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
+                    <cs.icon size={20} className="text-primary-foreground" />
+                  </div>
+                )}
                 <div>
                   <p className="font-semibold text-foreground">{cs.client}</p>
                   <p className="text-sm font-medium text-primary">{cs.stat}</p>
