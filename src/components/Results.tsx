@@ -14,10 +14,10 @@ const caseStudies = [
   },
   {
     icon: TrendingUp,
-    client: "Client 2",
-    stat: "Rapid growth",
+    client: "Aiden Yoo",
+    stat: "500,000 views",
     description:
-      "Achieved significant traction across multiple TikTok clipping pages in a short timeframe. The campaign helped establish a consistent presence on short-form platforms, laying the groundwork for long-term audience growth.",
+      "Online influencer who generated over 500,000 views across TikTok and Instagram Reels within the first month. Our coordinated network of clipping pages drove significant organic traffic to his content.",
   },
 ];
 
