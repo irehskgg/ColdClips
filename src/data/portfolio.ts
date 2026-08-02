@@ -19,23 +19,58 @@ export interface CreatorGroup {
   reels: Reel[];
 }
 
-export const gusReels: Reel[] = [
-  { src: reel1.url, views: "60K Views" },
-  { src: reel4.url, views: "52K Views" },
-  { src: reel9.url, views: "36K Views" },
+export const creatorGroups: CreatorGroup[] = [
+  {
+    name: "Gus Trades",
+    reels: [
+      {
+        src: reel1,
+        views: "60K Views",
+      },
+      {
+        src: reel4,
+        views: "52K Views",
+      },
+      {
+        src: reel9,
+        views: "36K Views",
+      },
+    ],
+  },
+  {
+    name: "Tursonzz",
+    reels: [
+      {
+        src: reel14,
+      },
+      {
+        src: reel15,
+      },
+    ],
+  },
+  {
+    name: "Karter",
+    reels: [
+      {
+        src: timeline1,
+      },
+    ],
+  },
 ];
 
-export const tursonzzReels: Reel[] = [{ src: reel14.url }, { src: reel15.url }];
-
-export const karterReel: Reel = { src: timeline1.url };
-
 export const results = [
-  { stat: "500K+", label: "Views Generated" },
-  { stat: "100+", label: "Videos Edited" },
-] as const;
+  {
+    stat: "500K+",
+    label: "Views Generated",
+  },
+  {
+    stat: "100+",
+    label: "Videos Edited",
+  },
+];
 
-export const testimonials: string[] = [
-  testimonial1.url,
-  testimonial2.url,
-  testimonial3.url,
+export const testimonials = [
+  testimonial1,
+  testimonial2,
+  testimonial3,
 ];
