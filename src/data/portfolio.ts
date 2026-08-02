@@ -74,3 +74,9 @@ export const testimonials = [
   testimonial2,
   testimonial3,
 ];
+// Backwards-compatible exports
+export const gusReels = creatorGroups[0].reels;
+
+export const tursonzzReels = creatorGroups[1].reels;
+
+export const karterReel = creatorGroups[2].reels[0];
