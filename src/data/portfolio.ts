@@ -1,12 +1,13 @@
-import reel1 from "@/assets/reel1.mov.asset.json";
-import reel4 from "@/assets/reel4.mov.asset.json";
-import reel9 from "@/assets/reel9.mov.asset.json";
-import reel14 from "@/assets/reel14.mov.asset.json";
-import reel15 from "@/assets/reel15.mov.asset.json";
-import timeline1 from "@/assets/timeline1.mp4.asset.json";
-import testimonial1 from "@/assets/testimonial1.png.asset.json";
-import testimonial2 from "@/assets/testimonial2.png.asset.json";
-import testimonial3 from "@/assets/testimonial3.png.asset.json";
+import reel1 from "@/assets/reel1.mov";
+import reel4 from "@/assets/reel4.mov";
+import reel9 from "@/assets/reel9.mov";
+import reel14 from "@/assets/reel14.mov";
+import reel15 from "@/assets/reel15.mov";
+import timeline1 from "@/assets/timeline1.mp4";
+
+import testimonial1 from "@/assets/testimonial1.png";
+import testimonial2 from "@/assets/testimonial2.png";
+import testimonial3 from "@/assets/testimonial3.png";
 
 export interface Reel {
   src: string;
