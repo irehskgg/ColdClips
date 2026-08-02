@@ -10,7 +10,7 @@ export interface CreatorGroup {
 
 export const gusReels: Reel[] = [
   {
-    src: "/videos/reel1.mov",
+    src: "/videos/reel1.mp4",
     views: "60K Views",
   },
   {
