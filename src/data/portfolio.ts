@@ -33,7 +33,7 @@ export const tursonzzReels: Reel[] = [
 ];
 
 export const karterReel: Reel = {
-  src: "/videos/timeline1.mov",
+  src: "/videos/timeline 1.mp4",
 };
 
 export const results = [
